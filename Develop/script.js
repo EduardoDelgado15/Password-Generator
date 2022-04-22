@@ -11,6 +11,7 @@ var special = ['@', '%', '+', '/', "'", '!', '#', '$', '^', '?', ':', ',', ')', 
 function questions() {
   var isValid = false;
   do {
+    //questions to prompt nand confirm like a console.log
     var length = prompt("Choose password length between 8 and 128 characters");
     var askNumbers = confirm("Do you want your password to include numbers?");
     var askLowerCase = confirm("Do you want your password to include lower case letters?");
